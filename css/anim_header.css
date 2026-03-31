@@ -1,0 +1,292 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color: var(--bgNavFoot);
+}
+
+nav {
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    width: 50%;
+    height: 90%;
+    gap: 60px;
+    /* background-color: aliceblue; */
+}
+
+#logo {
+    height: 60px;
+    width: 60px;
+    color: #3C94F2;
+    padding-left: 50px;
+}
+
+ul {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    list-style-type: none;
+    height: 90%;
+
+}
+
+#search {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+#loupe {
+    /* padding-left: 100px; */
+    height: 30px;
+    width: 30px;
+}
+
+#rechercher {
+    padding-left: 10px;
+    background-color: #3c94f2b0;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 200px;
+}
+
+#logIn {
+    height: 50px;
+    width: 50px;
+    padding-right: 50px;
+}
+
+
+/*******************************************/
+.css_animation {
+    height: 20vh;
+    /* background-color: aqua; */
+}
+
+.css_animation {
+    overflow: hidden;
+    padding: 0;
+    border-bottom: #C26E4F 6px solid;
+}
+
+.css_animation .wrapper {
+    position: relative;
+    /* width: 100%; */
+    height: 0;
+    padding-top: 58%;
+    /* overflow: hidden; */
+}
+
+.css_animation .wrapper div {
+    position: absolute;
+    margin-top: -17%;
+    height: 34%;
+    width: 2%;
+    border-radius: 20px;
+    top: 30%;
+}
+
+.css_animation .wrapper div:nth-of-type(1) {
+    animation: prop 17s 0.000s linear infinite;
+}
+
+.css_animation .wrapper div:nth-of-type(2) {
+    animation: prop 17s -16.227s linear infinite;
+}
+
+.css_animation .wrapper div:nth-of-type(3) {
+    animation: prop 17s -15.455s linear infinite;
+}
+
+.css_animation .wrapper div:nth-of-type(4) {
+    animation: prop 17s -14.682s linear infinite;
+}
+
+.css_animation .wrapper div:nth-of-type(5) {
+    animation: prop 17s -13.909s linear infinite;
+}
+
+.css_animation .wrapper div:nth-of-type(6) {
+    animation: prop 17s -13.136s linear infinite;
+}
+
+.css_animation .wrapper div:nth-of-type(7) {
+    animation: prop 17s -12.364s linear infinite;
+}
+
+.css_animation .wrapper div:nth-of-type(8) {
+    animation: prop 17s -11.591s linear infinite;
+}
+
+.css_animation .wrapper div:nth-of-type(9) {
+    animation: prop 17s -10.818s linear infinite;
+}
+
+.css_animation .wrapper div:nth-of-type(10) {
+    animation: prop 17s -10.045s linear infinite;
+}
+
+.css_animation .wrapper div:nth-of-type(11) {
+    animation: prop 17s -9.273s linear infinite;
+}
+
+.css_animation .wrapper div:nth-of-type(12) {
+    animation: prop 17s -8.500s linear infinite;
+}
+
+.css_animation .wrapper div:nth-of-type(13) {
+    animation: prop 17s -7.727s linear infinite;
+}
+
+.css_animation .wrapper div:nth-of-type(14) {
+    animation: prop 17s -6.955s linear infinite;
+}
+
+.css_animation .wrapper div:nth-of-type(15) {
+    animation: prop 17s -6.182s linear infinite;
+}
+
+.css_animation .wrapper div:nth-of-type(16) {
+    animation: prop 17s -5.409s linear infinite;
+}
+
+.css_animation .wrapper div:nth-of-type(17) {
+    animation: prop 17s -4.636s linear infinite;
+}
+
+.css_animation .wrapper div:nth-of-type(18) {
+    animation: prop 17s -3.864s linear infinite;
+}
+
+.css_animation .wrapper div:nth-of-type(19) {
+    animation: prop 17s -3.091s linear infinite;
+}
+
+.css_animation .wrapper div:nth-of-type(20) {
+    animation: prop 17s -2.318s linear infinite;
+}
+
+.css_animation .wrapper div:nth-of-type(21) {
+    animation: prop 17s -1.545s linear infinite;
+}
+
+.css_animation .wrapper div:nth-of-type(22) {
+    animation: prop 17s -0.773s linear infinite;
+}
+
+@keyframes prop {
+    0% {
+        background: red;
+        left: -2%;
+    }
+
+    5% {
+        background: #9337fe;
+    }
+
+    10% {
+        height: 10%;
+        margin-top: -5%;
+        background: #c532fc;
+    }
+
+    15% {
+        background: #f639f8;
+    }
+
+    20% {
+        height: 34%;
+        margin-top: -17%;
+        background: #3af9da;
+    }
+
+    25% {
+        background: #ff2f8d;
+    }
+
+    30% {
+        height: 10%;
+        margin-top: -5%;
+        background: #54e678;
+    }
+
+    35% {
+        background: #dc5245;
+    }
+
+    40% {
+        height: 34%;
+        margin-top: -17%;
+        background: #3af9da;
+    }
+
+    45% {
+        background: #f8b435;
+    }
+
+    50% {
+        height: 10%;
+        margin-top: -5%;
+        background: #54e678;
+    }
+
+    55% {
+        background: #e0ff3b;
+    }
+
+    60% {
+        height: 34%;
+        margin-top: -17%;
+        background: #3af9da;
+    }
+
+    65% {
+        background: #46f443;
+    }
+
+    70% {
+        height: 10%;
+        margin-top: -5%;
+        background: #54e678;
+    }
+
+    75% {
+        background: #d4df3a;
+    }
+
+    80% {
+        height: 34%;
+        margin-top: -17%;
+        background: #3af9da;
+    }
+
+    85% {
+        background: #36ebf4;
+    }
+
+    90% {
+        height: 10%;
+        margin-top: -5%;
+        background: #3db3f3;
+    }
+
+    95% {
+        background: #3c82f1;
+    }
+
+    100% {
+        left: 100%;
+        height: 34%;
+        margin-top: -17%;
+        background: #5b38ee;
+    }
+}
