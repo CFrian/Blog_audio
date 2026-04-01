@@ -1,0 +1,80 @@
+/******************************    FOOTER    ********************************************/
+
+
+
+footer {
+    height: 20vh;
+    background-color: var(--bgNavFoot);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+footer section {
+    display: flex;
+    flex-direction: column;
+
+    height: 60%;
+    width: 15%;
+}
+
+
+footer h3 {
+
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+
+#marque {
+    margin-bottom: 10px;
+    font-weight: 900;
+    font-size: 1.5rem;
+    font-family: "inter", sans-serif;
+
+}
+
+.legal p {
+    margin: 0 0 10px 0;
+
+}
+
+.tagsPop ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+
+}
+
+.tagsPop ul li {
+    text-wrap: wrap;
+    padding: 0;
+    font-family: "work-sans", sans-serif;
+
+}
+
+
+
+.subscribes {
+    gap: 10px;
+}
+
+.subscribes input,
+.subscribes button {
+
+    font-family: "work-sans", sans-serif;
+    font-size: 1rem;
+    border: #3c85f2, solid, 2px;
+    border-radius: 5px;
+    width: 80%;
+}
+
+.subscribes button {
+    background-color: #3C94F2;
+}
+
+.subscribes button:hover {
+    background-color: #185596;
+}
