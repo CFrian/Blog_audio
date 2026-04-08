@@ -10,7 +10,7 @@
     <script defer src="./js/formulaire.js"></script>
     <script defer src="./js/main.js"></script>
 
-    <title>Ajouter-article</title>
+    <title>Création-Compte</title>
 
 </head>
 
@@ -71,28 +71,19 @@
 
 
 
-    <section class="addArticle">
-        <h2>Ajouter un article</h2>
+    <section class="inscription">
+        <h2>INSCRIPTION</h2>
         <hr>
+        <h3>Pseudo</h3>
+        <input type="text" id="pseudo" placeholder="nom visible par les utilisateurs" required>
+        <h3>Adresse mail</h3>
+        <input type="mail" id="mail" placeholder="adresse mail valide" required>
+        <h3>Mot de passe</h3>
+        <input type="text" id="password" placeholder="ajouter un mot de passe" required>
+        <h3>Vérification du mot de passe</h3>
+        <input type="text" id="passwordComparatif" placeholder="confirmer le mot de passe" required>
 
-        <input type="text" id="titreArt" placeholder="Titre de l'article" required>
-        <textarea id="ResumeArt" placeholder="Résumé de l'article" required></textarea>
-        <textarea id="bodyArt" placeholder="Ajouter un paragraphe" required></textarea>
-        <input type="image" src="#" alt="" placeholder="Ajouter image">
-
-        <section class="metaDataUser">
-            <input type="text" id="Autor" placeholder="Nom de l'auteur" required>
-            <input type="date" id="date" placeholder="00/00/0000" required>
-            <input type="text" id="tags" placeholder="#tag,#tag02">
-            <input type="text" id="readingTime" placeholder="Durée de lecture">
-        </section>
-        <section class="gestionArt">
-            <button type="submit">Créer l'article</button>
-            <button>Prévisualiser l'article</button>
-            <button>Modifier un article</button>
-        </section>
-
-
+        <button type="submit">Créer le compte</button>
     </section>
 
     <!-- *///////////////////////////////////////////////////* -->

@@ -8,12 +8,10 @@ header {
 
 nav {
     display: flex;
-    /* justify-content: space-around; */
     align-items: center;
     width: 50%;
     height: 90%;
     gap: 60px;
-    /* background-color: aliceblue; */
 }
 
 #logo {
@@ -30,7 +28,14 @@ ul {
     gap: 25px;
     list-style-type: none;
     height: 90%;
+}
 
+#hidden {
+    display: none;
+}
+
+header>nav>ul>li>a:hover {
+    color: #C26E4F;
 }
 
 #search {
@@ -59,47 +64,95 @@ a {
     width: 200px;
 }
 
-#logIn {
+#iconLogIn {
     height: 50px;
     width: 50px;
-    padding-right: 50px;
+    padding-right: 150px;
 }
 
+.userLogIn {
+    height: 150px;
+    width: 200px;
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    background-color: var(--bgNavFoot);
+    border-radius: 0 0 0 5px;
+    border-top: 1px dotted #C26E4F;
+    border-bottom: 2px solid #C26E4F;
+    border-left: 2px solid #C26E4F;
+    right: 0;
+    top: 80px;
+    gap: 10px;
+    padding: 30px 10px 0 10px;
+    z-index: 1;
+}
+
+.userLogIn.open {
+    display: flex;
+}
+
+
+#userID,
+#userMail {
+    /* padding-top: 30px 10px 0 10px; */
+    background-color: #3c94f2b0;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 90%;
+    padding-left: 10px;
+}
+
+#userConnexion {
+    background-color: #C26E4F;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 50%;
+    padding-left: 10px;
+}
+
+#userID:hover,
+#userMail:hover {
+    background-color: #ca5a31;
+}
 
 /*******************************************/
 .css_animation {
     height: 20vh;
-    /* background-color: aqua; */
+
 }
 
 .css_animation {
-    overflow: hidden;
+    /* overflow: hidden; */
     padding: 0;
     border-bottom: #C26E4F 6px solid;
 }
 
 .css_animation .wrapper {
     position: relative;
-    /* width: 100%; */
-    height: 0;
-    padding-top: 58%;
+    height: 20;
+    padding-top: 8%;
     /* overflow: hidden; */
+
 }
 
 .css_animation .wrapper div {
     position: absolute;
-    margin-top: -17%;
+    margin-top: 80px;
     height: 34%;
     width: 2%;
-    border-radius: 20px;
     top: 30%;
+    /*  border-radius: 20px;
+     */
 }
 
 .css_animation .wrapper div:nth-of-type(1) {
     animation: prop 17s 0.000s linear infinite;
 }
 
-.css_animation .wrapper div:nth-of-type(2) {
+/* .css_animation .wrapper div:nth-of-type(2) {
     animation: prop 17s -16.227s linear infinite;
 }
 
@@ -181,12 +234,12 @@ a {
 
 .css_animation .wrapper div:nth-of-type(22) {
     animation: prop 17s -0.773s linear infinite;
-}
+} */
 
 @keyframes prop {
     0% {
         background: red;
-        left: -2%;
+        left: 0%;
     }
 
     5% {
@@ -194,8 +247,8 @@ a {
     }
 
     10% {
-        height: 10%;
-        margin-top: -5%;
+        height: 5%;
+        margin-top: 0;
         background: #c532fc;
     }
 
@@ -209,7 +262,7 @@ a {
         background: #3af9da;
     }
 
-    25% {
+    /* 25% {
         background: #ff2f8d;
     }
 
@@ -282,7 +335,7 @@ a {
     95% {
         background: #3c82f1;
     }
-
+*/
     100% {
         left: 100%;
         height: 34%;

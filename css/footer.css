@@ -65,16 +65,17 @@ footer h3 {
 .subscribes button {
 
     font-family: "work-sans", sans-serif;
-    font-size: 1rem;
-    border: #3c85f2, solid, 2px;
+    font-size: 0.8rem;
+    border: none;
     border-radius: 5px;
     width: 80%;
+    height: 30px;
 }
 
 .subscribes button {
-    background-color: #3C94F2;
+    background-color: #C26E4F;
 }
 
 .subscribes button:hover {
-    background-color: #185596;
+    background-color: #ca5a31;
 }
