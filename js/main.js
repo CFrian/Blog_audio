@@ -8,8 +8,11 @@ userLoginbtn.addEventListener("click", () => {
 })
 
 
-// retourne la carte d'article
-const cardFlip = document.querySelector('.card');
-cardFlip.addEventListener('click', function () {
-    cardFlip.classList.toggle('flipped');
-});
+// // retourne la carte d'article
+// const cardFlip = document.querySelector('.card');
+// cardFlip.addEventListener('click', function () {
+//     cardFlip.classList.toggle('flipped');
+// });
+
+
+

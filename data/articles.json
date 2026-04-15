@@ -1,0 +1,222 @@
+[
+  {
+    "id": 1,
+    "image": "https://picsum.photos/seed/studio1/800/400",
+    "title": "Tout Comprendre sur les Filtres des Synthés",
+    "summary": "Le filtre est l'un des éléments les plus expressifs d'un synthétiseur. Cutoff, résonance, passe-bas, passe-haut... cet article démystifie tout ce qu'il faut savoir pour sculpter vos sons.",
+    "author": "Camille",
+    "readingTime": "10 min",
+    "createdAt": "2026-03-01",
+    "category": "Production Musicale",
+    "content": "Si vous avez déjà joué avec un synthétiseur, vous avez forcément tourné ce gros bouton souvent labellisé 'Cutoff' ou 'Filter' et entendu le son se transformer sous vos doigts. Le filtre est l'un des éléments les plus puissants et les plus expressifs de la synthèse sonore. Dans cet article, on explore en détail le fonctionnement des filtres VCF (Voltage Controlled Filter), les différents types (passe-bas, passe-haut, passe-bande), le rôle du Cutoff et de la résonance, ainsi que la façon de les moduler avec des enveloppes ou des LFO pour créer des sons vivants et dynamiques."
+  },
+  {
+    "id": 2,
+    "image": "https://picsum.photos/seed/studio2/800/400",
+    "title": "Arrêtez d'essayer de faire de BONS morceaux !",
+    "summary": "Vous bloquez sur vos projets depuis des semaines ? Peut-être que vous vous fixez le mauvais objectif. Cet article remet en question l'approche perfectionniste qui paralyse tant de producteurs.",
+    "author": "Thomas",
+    "readingTime": "8 min",
+    "createdAt": "2026-03-05",
+    "category": "Production Musicale",
+    "content": "Vous avez l'impression qu'il y a toujours un détail à corriger, un réglage à améliorer, un mix à affiner... et au final, vos projets restent bloqués pendant des semaines, voire des mois. Le problème n'est pas votre niveau : c'est l'objectif que vous vous fixez. Chercher à faire un 'bon' morceau dès le départ active un mode de jugement constant qui freine la créativité. Cet article propose une approche différente : se concentrer sur le processus plutôt que sur le résultat, accepter l'imperfection comme moteur de progression, et apprendre à finir ses morceaux avant de les perfectionner."
+  },
+  {
+    "id": 3,
+    "image": "https://picsum.photos/seed/studio3/800/400",
+    "title": "Audio-Technica ATH-R50X : le Test Complet",
+    "summary": "Audio-Technica lance le ATH-R50X, un casque semi-ouvert pensé pour le monitoring studio. On passe en revue sa construction, son confort et sa restitution sonore.",
+    "author": "Léa",
+    "readingTime": "12 min",
+    "createdAt": "2026-03-10",
+    "category": "Tests",
+    "content": "Audio-Technica est une marque incontournable dans l'univers du studio et du home studio. Avec l'ATH-R50X, la marque propose un casque semi-ouvert à destination des ingénieurs du son et des producteurs. Dans ce test complet, on analyse la qualité de construction (arceau, coussinets, câble détachable), le confort en longue session, la réponse en fréquence, la scène stéréo et la façon dont il se compare à d'autres références du marché comme le Sony MDR-7506 ou le Beyerdynamic DT990."
+  },
+  {
+    "id": 4,
+    "image": "https://picsum.photos/seed/studio4/800/400",
+    "title": "Audio-Technica ATH-R70Xa : le Test Complet",
+    "summary": "Le ATH-R70Xa est la version améliorée du très apprécié R70X. Plus ouvert, plus détaillé, il vise les home-studios et studios professionnels. Verdict après utilisation intensive.",
+    "author": "Mathieu",
+    "readingTime": "14 min",
+    "createdAt": "2026-03-12",
+    "category": "Tests",
+    "content": "Audio-Technica revient avec une version revue et corrigée de son ATH-R70X, l'un des casques ouverts les plus appréciés des ingénieurs du son. L'ATH-R70Xa apporte des améliorations sur la conception des transducteurs, le câblage et le confort général. Dans ce test, on évalue ses qualités pour le mixage et le mastering, on compare sa réponse en fréquence avec son prédécesseur, et on analyse si la différence de prix est justifiée. Un casque ouvert qui vise clairement les professionnels et les audiophiles exigeants."
+  },
+  {
+    "id": 5,
+    "image": "https://picsum.photos/seed/studio5/800/400",
+    "title": "Fender Studio Pro 8 : le Test Complet (ex-Studio One)",
+    "summary": "Studio One a changé de nom suite au rachat de PreSonus par Fender. Fender Studio Pro 8 arrive avec son lot de nouveautés. On fait le tour complet de ce DAW sous sa nouvelle identité.",
+    "author": "Sarah",
+    "readingTime": "15 min",
+    "createdAt": "2026-03-15",
+    "category": "Tests",
+    "content": "Depuis le rachat de PreSonus par Fender, Studio One s'appelle désormais Fender Studio Pro. La version 8 marque cette transition avec plusieurs évolutions notables : interface retouchée, nouveaux instruments virtuels, amélioration du moteur de mixage et intégration plus poussée avec l'écosystème Fender. Dans ce test complet, on fait le point sur ce que cette nouvelle version apporte concrètement aux utilisateurs existants, si la migration vaut le coup, et ce que les nouveaux arrivants peuvent attendre de ce DAW qui reste l'un des plus fluides et intuitifs du marché."
+  },
+  {
+    "id": 6,
+    "image": "https://picsum.photos/seed/studio6/800/400",
+    "title": "Les formations Projet Home Studio jusqu'à -50%",
+    "summary": "À l'occasion des 10 ans de Projet Home Studio, toutes les formations sont en promotion jusqu'à -50%. Une opportunité rare pour se former au mixage, mastering et production musicale.",
+    "author": "Antoine",
+    "readingTime": "3 min",
+    "createdAt": "2026-03-20",
+    "category": "Actualités",
+    "content": "Pour fêter les 10 ans de Projet Home Studio, une offre exceptionnelle est proposée : toutes les formations disponibles sur la plateforme sont accessibles jusqu'à -50% de réduction. Que vous souhaitiez vous former au mixage de voix, maîtriser la compression, apprendre le mastering ou comprendre le mixage kick-basse, c'est le moment idéal pour investir dans votre progression. L'offre est limitée dans le temps et ne reviendra pas de sitôt."
+  },
+  {
+    "id": 7,
+    "image": "https://picsum.photos/seed/studio7/800/400",
+    "title": "Le Livre \"Enfin Finir Ses Morceaux\" est Disponible !",
+    "summary": "Après des mois de travail, le premier livre de Projet Home Studio est enfin disponible. Il s'adresse à tous ceux qui peinent à terminer leurs projets musicaux.",
+    "author": "Julie",
+    "readingTime": "5 min",
+    "createdAt": "2026-03-04",
+    "category": "Actualités",
+    "content": "Après des mois de travail, le livre 'Enfin finir ses morceaux' est maintenant disponible. Il a été pensé pour tous ceux qui se sentent bloqués en cours de production, qui accumulent des projets inachevés dans leur DAW, ou qui n'arrivent jamais à appuyer sur le bouton Exporter. Le livre aborde les raisons psychologiques et pratiques qui nous empêchent de finir, propose des méthodes concrètes pour structurer son processus créatif, et aide à développer une routine de travail plus saine."
+  },
+  {
+    "id": 8,
+    "image": "https://picsum.photos/seed/studio8/800/400",
+    "title": "Synthés : Tout Comprendre au LFO",
+    "summary": "Le LFO est l'un des outils les plus polyvalents de la synthèse sonore. Vibrato, tremolo, filtre en mouvement... découvrez comment exploiter cet oscillateur basse fréquence dans vos productions.",
+    "author": "Nicolas",
+    "readingTime": "9 min",
+    "createdAt": "2026-02-20",
+    "category": "Production Musicale",
+    "content": "LFO : trois lettres qui reviennent partout dès qu'on parle de synthèse sonore. Le Low Frequency Oscillator est un oscillateur dont la fréquence est trop basse pour être entendue directement, mais qui sert à moduler d'autres paramètres du synthétiseur : le pitch (vibrato), le volume (tremolo), le filtre (wah automatique), le panoramique, et bien d'autres. Dans cet article, on explique comment fonctionne un LFO, les différentes formes d'onde disponibles (sinus, carré, dent de scie), comment le synchroniser au tempo, et des exemples concrets d'utilisation dans différents styles musicaux."
+  },
+  {
+    "id": 9,
+    "image": "https://picsum.photos/seed/studio9/800/400",
+    "title": "Synthé Mono, Poly, Paraphonique : Quelle Différence ?",
+    "summary": "Mono, poly, paraphonique... quand on débute avec les synthétiseurs, ces termes peuvent vite semer la confusion. Cet article clarifie tout avec des exemples concrets.",
+    "author": "Emma",
+    "readingTime": "8 min",
+    "createdAt": "2026-02-15",
+    "category": "Production Musicale",
+    "content": "Lorsqu'on commence à s'intéresser aux synthétiseurs, on tombe rapidement sur des termes comme monophonique, polyphonique ou paraphonique. Un synthé monophonique ne peut jouer qu'une seule note à la fois (idéal pour les basses ou les leads). Un polyphonique peut en jouer plusieurs (accords, nappes). Le paraphonique représente un cas intermédiaire : plusieurs oscillateurs mais une seule chaîne de signal partagée. Comprendre ces différences aide à choisir le bon instrument et à exploiter ses possibilités au maximum."
+  },
+  {
+    "id": 10,
+    "image": "https://picsum.photos/seed/studio10/800/400",
+    "title": "Arturia KeyStep 37 MK2 : le Test Complet",
+    "summary": "Le KeyStep 37 MK2 d'Arturia est un contrôleur MIDI avec séquenceur intégré, très apprécié pour les setups hybrides. On teste en détail ses apports par rapport à la première version.",
+    "author": "Romain",
+    "readingTime": "13 min",
+    "createdAt": "2026-02-18",
+    "category": "Tests",
+    "content": "Le KeyStep d'Arturia fait partie de ces claviers devenus incontournables pour les musiciens qui évoluent dans des environnements hybrides, entre ordinateur, synthétiseurs hardware et modulaires. Cette version MK2 apporte des améliorations bienvenues : aftertouch, connectivité MIDI améliorée, construction plus robuste et séquenceur encore plus flexible. Dans ce test complet, on évalue sa qualité de jeu, la fluidité du séquenceur, les options de connectivité (USB, MIDI DIN, CV/Gate) et la façon dont il s'intègre dans un setup home studio moderne."
+  },
+  {
+    "id": 11,
+    "image": "https://picsum.photos/seed/studio11/800/400",
+    "title": "ADSR : Le Guide pour Enfin Dompter vos Enveloppes",
+    "summary": "Attack, Decay, Sustain, Release : ces quatre paramètres définissent l'évolution d'un son dans le temps. Ce guide complet vous explique comment les maîtriser.",
+    "author": "Chloé",
+    "readingTime": "11 min",
+    "createdAt": "2026-02-10",
+    "category": "Production Musicale",
+    "content": "On entend souvent parler d'ADSR dès qu'on touche à la synthèse sonore. Ce terme désigne l'enveloppe qui contrôle l'évolution du volume (ou d'autres paramètres) d'un son au fil du temps : Attack (temps de montée), Decay (descente vers le sustain), Sustain (niveau maintenu), Release (extinction après relâchement de la touche). Maîtriser l'ADSR, c'est avoir le contrôle total sur le caractère d'un son : percutant, doux, court ou long. Cet article explique chaque phase en détail avec des cas d'usage concrets pour la basse, les pads, les leads et les percussions."
+  },
+  {
+    "id": 12,
+    "image": "https://picsum.photos/seed/studio12/800/400",
+    "title": "Plugins d'EQ Analogiques : le Grand SCAM ?",
+    "summary": "Les émulations d'égaliseurs analogiques à 150 € valent-elles vraiment mieux qu'un bon EQ numérique gratuit ? Une analyse honnête et sans langue de bois.",
+    "author": "Alexis",
+    "readingTime": "7 min",
+    "createdAt": "2026-02-08",
+    "category": "Mixage",
+    "content": "Est-ce que les plugins d'EQ estampillés 'analogiques' ou 'vintage' à 150 € offrent vraiment un son supérieur, ou peut-on reproduire les mêmes résultats avec un simple égaliseur numérique comme le FabFilter Pro-Q ? On compare le comportement en phase, la saturation harmonique, la coloration sonore et l'ergonomie de ces deux types d'outils. La conclusion est nuancée : la couleur sonore existe bel et bien, mais elle est souvent bien plus subtile que ce que les vendeurs laissent entendre."
+  },
+  {
+    "id": 13,
+    "image": "https://picsum.photos/seed/studio13/800/400",
+    "title": "Beyerdynamic DT 270 Pro : le Test Complet",
+    "summary": "Beyerdynamic propose le DT 270 Pro, un casque fermé taillé pour la scène et le studio. On le compare au DT 770 pour voir s'il mérite une place dans votre setup.",
+    "author": "Laura",
+    "readingTime": "12 min",
+    "createdAt": "2026-02-05",
+    "category": "Tests",
+    "content": "On connaît bien les casques Beyerdynamic, notamment à travers le fameux DT770 qui est devenu un standard dans de nombreux home studios. Le DT 270 Pro est un nouveau modèle fermé de la marque, conçu aussi bien pour la scène que pour le studio. Dans ce test complet, on analyse sa construction robuste, son isolation acoustique, son confort en longue session, et sa réponse en fréquence. La comparaison avec le DT770 est inévitable : le 270 Pro se positionne-t-il comme un successeur, un complément ou un concurrent direct ?"
+  },
+  {
+    "id": 14,
+    "image": "https://picsum.photos/seed/studio14/800/400",
+    "title": "Native Instruments Absynth 6 : Retour de l'Ambient Synth",
+    "summary": "Absynth est de retour en version 6 chez Native Instruments. Ce synthé atypique, taillé pour les textures ambient et cinématiques, revient avec de nouvelles fonctionnalités.",
+    "author": "Hugo",
+    "readingTime": "14 min",
+    "createdAt": "2026-01-28",
+    "category": "Tests",
+    "content": "La série Absynth de Native Instruments est singulière dans le paysage des synthétiseurs virtuels. Initiée en 2000, son architecture hybride (oscillateurs, modulateurs, filtres morphants) en fait un outil de choix pour les nappes atmosphériques, les textures ambient et les paysages sonores cinématiques. Absynth 6 apporte une interface modernisée, de nouveaux presets et une meilleure intégration dans les DAW modernes. Ce test fait le point sur ce que cette version apporte et pour qui ce synthé est vraiment fait."
+  },
+  {
+    "id": 15,
+    "image": "https://picsum.photos/seed/studio15/800/400",
+    "title": "J'ai Dû Percer mon Premier Synthé !",
+    "summary": "Plongée dans l'univers du circuit bending avec un vieux Yamaha PSS-100 des années 80. Une exploration DIY pour enrichir ses productions de sons vintage lo-fi.",
+    "author": "Manon",
+    "readingTime": "6 min",
+    "createdAt": "2026-01-20",
+    "category": "Production Musicale",
+    "content": "Dans cet article, on plonge dans l'univers d'un petit synthé Yamaha des années 80 — le PSS-100 — pour découvrir ce qu'il peut réellement offrir une fois modifié, samplé et intégré dans une production moderne. L'idée : percer le boîtier pour accéder aux circuits internes, réaliser quelques modifications DIY (circuit bending), et voir comment ces sons vintage et lo-fi peuvent enrichir une prod contemporaine. Un article pour les curieux et les bidouilleurs."
+  },
+  {
+    "id": 16,
+    "image": "https://picsum.photos/seed/studio16/800/400",
+    "title": "Le Piège du Calcul pour le Release et la Réverbe",
+    "summary": "Calculer le release d'un compresseur selon le BPM : bonne idée ou fausse bonne pratique ? Cet article déconstruit un mythe très répandu dans les tutos de mixage.",
+    "author": "Pierre",
+    "readingTime": "7 min",
+    "createdAt": "2025-11-20",
+    "category": "Mixage",
+    "content": "Beaucoup de tutoriels expliquent qu'il faut calculer la durée du release des compresseurs ou de la réverbe en fonction du tempo du morceau, avec la formule 60000 divisé par le BPM. C'est une idée séduisante, mais elle comporte un piège majeur : elle s'applique mécaniquement sans tenir compte du contexte musical, du groove ou du feeling souhaité. Dans cet article, on explique pourquoi cette approche est souvent contre-productive, et comment développer une oreille critique pour régler ces paramètres de façon musicale plutôt que mathématique."
+  },
+  {
+    "id": 17,
+    "image": "https://picsum.photos/seed/studio17/800/400",
+    "title": "10 des Meilleurs Micros pour Podcast en 2026",
+    "summary": "Shure SM7B, Rode NT-USB, Audio-Technica AT2020... quel micro choisir pour lancer ou améliorer votre podcast ? Tour d'horizon complet à tous les budgets.",
+    "author": "Inès",
+    "readingTime": "10 min",
+    "createdAt": "2025-11-15",
+    "category": "Matériel & Enregistrement",
+    "content": "Vous cherchez un microphone fiable pour lancer ou améliorer votre podcast, mais vous êtes perdu parmi tous les modèles disponibles ? Dans cet article, on passe en revue 10 microphones adaptés au podcast : dynamiques, condensateurs, USB ou XLR, à tous les budgets, avec des conseils pratiques pour choisir en fonction de votre environnement d'enregistrement. Du Shure SM7B très populaire aux alternatives plus accessibles, on vous aide à faire le bon choix sans vous ruiner."
+  },
+  {
+    "id": 18,
+    "image": "https://picsum.photos/seed/studio18/800/400",
+    "title": "Pourquoi vos Voix ne s'Intègrent Pas à vos Mix",
+    "summary": "La voix semble toujours 'collée' sur l'instrumental dans vos mixes ? Voici les raisons les plus courantes et comment y remédier concrètement.",
+    "author": "Baptiste",
+    "readingTime": "9 min",
+    "createdAt": "2025-10-28",
+    "category": "Mixage",
+    "content": "C'est un problème que rencontrent tous les home-studistes : la voix semble 'collée' sur l'instrumental, sans jamais vraiment se fondre dans le mix. Plusieurs causes peuvent expliquer ce phénomène : une acoustique de prise de son défaillante, un manque de traitement EQ adapté, une réverbe mal dosée ou des problèmes de compression. Dans cet article, on explore chacune de ces raisons en détail et on propose des solutions pratiques, que vous travailliez sur une voix chantée, un rap ou une voix off."
+  },
+  {
+    "id": 19,
+    "image": "https://picsum.photos/seed/studio19/800/400",
+    "title": "Black Friday 2025 : Les Meilleures Promos Home Studio & MAO",
+    "summary": "Plugins, instruments virtuels, samples, matériel... le Black Friday est le moment idéal pour faire le plein. Voici une sélection des meilleures offres pour les home-studistes.",
+    "author": "Océane",
+    "readingTime": "5 min",
+    "createdAt": "2025-11-25",
+    "category": "Actualités",
+    "content": "Comme chaque année, le Black Friday est un grand moment pour les home-studistes, avec une myriade de promos sur les plugins d'effets, les instruments virtuels, les samples et le matériel. Dans cet article, on fait le tri pour vous présenter uniquement les offres qui valent vraiment le coup : des réductions significatives sur des outils reconnus, pas de faux rabais gonflés pour l'occasion. On couvre les grandes plateformes (Plugin Boutique, Splice, Native Instruments, iZotope) ainsi que les marques de matériel incontournables."
+  },
+  {
+    "id": 20,
+    "image": "https://picsum.photos/seed/studio20/800/400",
+    "title": "Auburn Sounds Annonce Selene, une Nouvelle Réverbe (+ Version Gratuite !)",
+    "summary": "Auburn Sounds, éditeur discret mais très respecté, lance Selene : une nouvelle réverbe disponible en version gratuite et payante. Présentation et premier avis.",
+    "author": "Florian",
+    "readingTime": "6 min",
+    "createdAt": "2025-10-15",
+    "category": "Actualités",
+    "content": "Auburn Sounds est une marque qui, si elle n'est pas ultra connue du grand public, sort depuis des années des plugins de grande qualité, souvent salués par la communauté home studio. Avec Selene, la marque annonce une nouvelle réverbe qui se distingue par son algorithme original et sa transparence sonore. Une version gratuite est disponible, ce qui permet de la tester sans risque. Dans cet article, on présente ses caractéristiques principales, son positionnement face à la concurrence (Valhalla, FabFilter Pro-R) et notre première impression à l'écoute."
+  }
+]

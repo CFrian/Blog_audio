@@ -7,8 +7,9 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/anim_header.css">
     <link rel="stylesheet" href="./css/footer.css">
-
+    <link rel="icon" type="image/svg+xml" href="./assets/icons/jack-plug.svg">
     <script defer src="./js/main.js"></script>
+    <script defer src="./js/articles.js"></script>
 
     <title>Accueil</title>
 </head>
@@ -75,16 +76,16 @@
     <!-- NEWS  -->
 
     <main>
+        <section class="sectionNews">
+
+            <div id="titreNews">
+                <h2>News</h2>
+                <hr>
+            </div>
 
 
-
-
-
-        <section class="news">
-            <!-- <h1>News</h1> -->
-            <h2 class="transparence">News</h2>
-            <hr>
-            <div class="dvNews card">
+            <Div id="cardNews"></Div>
+            <!-- <div class="dvNews card">
                 <div class="nInfos card-inner">
 
 
@@ -104,14 +105,25 @@
                         <button type="button">Lire l'article</button>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
         </section>
 
         <!-- /********************  ARTICLES ***********************/ -->
-        <section class="articles">
-            <h2>Les articles</h2>
-            <hr>
+
+        <section id="sectionArticles">
+            <div id="titreArt">
+                <h2>Les articles</h2>
+                <hr>
+            </div>
+            <p id="message"></p>
+            <div id="listArt">
+                <div id="cardArt"></div>
+            </div>
+        </section>
+        <!-- <section class="articles">
+           
+           
             <div class="liArt">
                 <div class="art01">
                     <div class="tRead">
@@ -243,40 +255,40 @@
             </div>
             <button>Afficher plus d'articles</button>
         </section>
-    </main>
+    </main> -->
 
 
 
-    <!-- *///////////////////////////////////////////////////* -->
-    <footer>
-        <section class="legal">
-            <div id="marque">Jack</div>
-            <p>Jack@2026 All rights reserved</p>
-            <p>Designed by CFrian</p>
-        </section>
+        <!-- *///////////////////////////////////////////////////* -->
+        <footer>
+            <section class="legal">
+                <div id="marque">Jack</div>
+                <p>Jack@2026 All rights reserved</p>
+                <p>Designed by CFrian</p>
+            </section>
 
-        <section class="tagsPop">
+            <section class="tagsPop">
 
-            <h3>TAGS POPULAIRES</h3>
-            <ul>
-                <li>SYNTH</li>
-                <li>MATOS</li>
-                <li>TEST</li>
+                <h3>TAGS POPULAIRES</h3>
+                <ul>
+                    <li>SYNTH</li>
+                    <li>MATOS</li>
+                    <li>TEST</li>
 
-            </ul>
-            <ul>
-                <li>PLUNGIN</li>
-                <li>STAN</li>
-                <li>TIPS</li>
-            </ul>
-        </section>
+                </ul>
+                <ul>
+                    <li>PLUNGIN</li>
+                    <li>STAN</li>
+                    <li>TIPS</li>
+                </ul>
+            </section>
 
-        <section class="subscribes">
-            <h3>SUBSCRIBE</h3>
-            <input type="email" name="subscribe" id="subscribe" placeholder="Ajouter votre Email">
-            <button>Merci de me tenir au courant ! </button>
-        </section>
-    </footer>
+            <section class="subscribes">
+                <h3>SUBSCRIBE</h3>
+                <input type="email" name="subscribe" id="subscribe" placeholder="Ajouter votre Email">
+                <button>Merci de me tenir au courant ! </button>
+            </section>
+        </footer>
 
 </body>
 

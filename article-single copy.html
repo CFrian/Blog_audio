@@ -9,9 +9,8 @@
     <link rel="stylesheet" href="./css/footer.css">
     <script defer src="./js/formulaire.js"></script>
     <script defer src="./js/main.js"></script>
-    <script defer src="./js/singleArt.js"></script>
 
-    <title>Article</title>
+    <title>Ajouter-article</title>
 
 </head>
 
@@ -69,13 +68,32 @@
     </div>
 
 
-    <main>
-        <div id="conteneurArt">
-            <div id="artDetail"></div>
-        </div>
 
+
+
+    <section class="addArticle">
+        <h2>Ajouter un article</h2>
+        <hr>
+
+        <input type="text" id="titreArt" placeholder="Titre de l'article" required>
+        <textarea id="ResumeArt" placeholder="Résumé de l'article" required></textarea>
+        <textarea id="bodyArt" placeholder="Ajouter un paragraphe" required></textarea>
+        <input type="image" src="#" alt="" placeholder="Ajouter image">
+
+        <section class="metaDataUser">
+            <input type="text" id="Autor" placeholder="Nom de l'auteur" required>
+            <input type="date" id="date" placeholder="00/00/0000" required>
+            <input type="text" id="tags" placeholder="#tag,#tag02">
+            <input type="text" id="readingTime" placeholder="Durée de lecture">
         </section>
-    </main>
+        <section class="gestionArt">
+            <button type="submit">Créer l'article</button>
+            <button>Prévisualiser l'article</button>
+            <button>Modifier un article</button>
+        </section>
+
+
+    </section>
 
     <!-- *///////////////////////////////////////////////////* -->
     <footer>
