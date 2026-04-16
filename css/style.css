@@ -128,6 +128,7 @@ h2 {
 }
 
 #cardArt {
+    /* perspective: 1000px; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -144,11 +145,45 @@ h2 {
     border: 3px solid #C26E4F;
     display: flex;
     flex-direction: column;
+    transform-style: preserve-3d;
+    transition: transform 0.6s ease;
+    cursor: pointer;
     border-radius: 15px;
-    overflow: hidden;
 
 }
 
+.card-recto,
+.card-verso {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: #FFFFFF;
+    border: 3px solid #C26E4F;
+    transform: translate(-3px, -3px);
+
+}
+
+.card-verso {
+    transform: rotateY(180deg);
+}
+
+.card.flipped {
+    transform: rotateY(180deg);
+}
+
+
+.card-recto h3 {
+    padding: 10px;
+    text-align: center;
+}
+
+.card-recto h3:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+}
 
 
 .card-image {
@@ -174,6 +209,18 @@ h2 {
     color: #ffffff;
     transform: translate(-3px, -3px);
     background-color: rgba(0, 0, 0, 0.5);
+}
+
+.metaCard {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.metaCard img {
+    height: 40px;
+
 }
 
 /* 

@@ -1,6 +1,7 @@
 [
   {
     "id": 1,
+    "slug": "comprendre-les-filtres-syntes",
     "image": "https://picsum.photos/seed/studio1/800/400",
     "title": "Tout Comprendre sur les Filtres des Synthés",
     "summary": "Le filtre est l'un des éléments les plus expressifs d'un synthétiseur. Cutoff, résonance, passe-bas, passe-haut... cet article démystifie tout ce qu'il faut savoir pour sculpter vos sons.",
@@ -12,6 +13,7 @@
   },
   {
     "id": 2,
+    "slug": "arretez-dessayer-de-faire-bons-morceaux",
     "image": "https://picsum.photos/seed/studio2/800/400",
     "title": "Arrêtez d'essayer de faire de BONS morceaux !",
     "summary": "Vous bloquez sur vos projets depuis des semaines ? Peut-être que vous vous fixez le mauvais objectif. Cet article remet en question l'approche perfectionniste qui paralyse tant de producteurs.",
@@ -23,6 +25,7 @@
   },
   {
     "id": 3,
+    "slug": "audio-technica-ath-r50x-test-complet",
     "image": "https://picsum.photos/seed/studio3/800/400",
     "title": "Audio-Technica ATH-R50X : le Test Complet",
     "summary": "Audio-Technica lance le ATH-R50X, un casque semi-ouvert pensé pour le monitoring studio. On passe en revue sa construction, son confort et sa restitution sonore.",
@@ -34,6 +37,7 @@
   },
   {
     "id": 4,
+    "slug": "audio-technica-ath-r70xa-test-complet",
     "image": "https://picsum.photos/seed/studio4/800/400",
     "title": "Audio-Technica ATH-R70Xa : le Test Complet",
     "summary": "Le ATH-R70Xa est la version améliorée du très apprécié R70X. Plus ouvert, plus détaillé, il vise les home-studios et studios professionnels. Verdict après utilisation intensive.",
@@ -45,6 +49,7 @@
   },
   {
     "id": 5,
+    "slug": "fender-studio-pro-8-test-complet",
     "image": "https://picsum.photos/seed/studio5/800/400",
     "title": "Fender Studio Pro 8 : le Test Complet (ex-Studio One)",
     "summary": "Studio One a changé de nom suite au rachat de PreSonus par Fender. Fender Studio Pro 8 arrive avec son lot de nouveautés. On fait le tour complet de ce DAW sous sa nouvelle identité.",
@@ -56,6 +61,7 @@
   },
   {
     "id": 6,
+    "slug": "formations-projet-home-studio-50-pourcent",
     "image": "https://picsum.photos/seed/studio6/800/400",
     "title": "Les formations Projet Home Studio jusqu'à -50%",
     "summary": "À l'occasion des 10 ans de Projet Home Studio, toutes les formations sont en promotion jusqu'à -50%. Une opportunité rare pour se former au mixage, mastering et production musicale.",
@@ -67,6 +73,7 @@
   },
   {
     "id": 7,
+    "slug": "livre-enfin-finir-ses-morceaux-disponible",
     "image": "https://picsum.photos/seed/studio7/800/400",
     "title": "Le Livre \"Enfin Finir Ses Morceaux\" est Disponible !",
     "summary": "Après des mois de travail, le premier livre de Projet Home Studio est enfin disponible. Il s'adresse à tous ceux qui peinent à terminer leurs projets musicaux.",
@@ -78,6 +85,7 @@
   },
   {
     "id": 8,
+    "slug": "syntes-tout-comprendre-au-lfo",
     "image": "https://picsum.photos/seed/studio8/800/400",
     "title": "Synthés : Tout Comprendre au LFO",
     "summary": "Le LFO est l'un des outils les plus polyvalents de la synthèse sonore. Vibrato, tremolo, filtre en mouvement... découvrez comment exploiter cet oscillateur basse fréquence dans vos productions.",
@@ -89,50 +97,55 @@
   },
   {
     "id": 9,
+    "slug": "izotope-ozone-12-advanced-test-complet",
     "image": "https://picsum.photos/seed/studio9/800/400",
-    "title": "Synthé Mono, Poly, Paraphonique : Quelle Différence ?",
-    "summary": "Mono, poly, paraphonique... quand on débute avec les synthétiseurs, ces termes peuvent vite semer la confusion. Cet article clarifie tout avec des exemples concrets.",
-    "author": "Emma",
-    "readingTime": "8 min",
+    "title": "iZotope Ozone 12 Advanced : le Test Complet",
+    "summary": "Ozone 12 Advanced est la référence du mastering assisté par IA. On passe en revue toutes ses nouveautés, ses forces et ses limites dans un contexte home studio.",
+    "author": "Kevin",
+    "readingTime": "13 min",
     "createdAt": "2026-02-15",
-    "category": "Production Musicale",
-    "content": "Lorsqu'on commence à s'intéresser aux synthétiseurs, on tombe rapidement sur des termes comme monophonique, polyphonique ou paraphonique. Un synthé monophonique ne peut jouer qu'une seule note à la fois (idéal pour les basses ou les leads). Un polyphonique peut en jouer plusieurs (accords, nappes). Le paraphonique représente un cas intermédiaire : plusieurs oscillateurs mais une seule chaîne de signal partagée. Comprendre ces différences aide à choisir le bon instrument et à exploiter ses possibilités au maximum."
+    "category": "Tests",
+    "content": "iZotope Ozone est depuis longtemps une référence dans le monde du mastering, notamment grâce à son assistant IA qui propose des réglages de départ intelligents. La version 12 Advanced pousse encore plus loin cette logique avec de nouveaux modules, une meilleure détection des problèmes spectraux et une interface affinée. Dans ce test complet, on évalue chaque module (EQ, Maximizer, Imager, Dynamic EQ), on compare les résultats avec des versions précédentes, et on donne un avis honnête sur la question qui revient souvent : est-ce vraiment utile pour le home studio ?"
   },
   {
     "id": 10,
+    "slug": "comprendre-la-compression-en-mixage",
     "image": "https://picsum.photos/seed/studio10/800/400",
-    "title": "Arturia KeyStep 37 MK2 : le Test Complet",
-    "summary": "Le KeyStep 37 MK2 d'Arturia est un contrôleur MIDI avec séquenceur intégré, très apprécié pour les setups hybrides. On teste en détail ses apports par rapport à la première version.",
-    "author": "Romain",
-    "readingTime": "13 min",
-    "createdAt": "2026-02-18",
-    "category": "Tests",
-    "content": "Le KeyStep d'Arturia fait partie de ces claviers devenus incontournables pour les musiciens qui évoluent dans des environnements hybrides, entre ordinateur, synthétiseurs hardware et modulaires. Cette version MK2 apporte des améliorations bienvenues : aftertouch, connectivité MIDI améliorée, construction plus robuste et séquenceur encore plus flexible. Dans ce test complet, on évalue sa qualité de jeu, la fluidité du séquenceur, les options de connectivité (USB, MIDI DIN, CV/Gate) et la façon dont il s'intègre dans un setup home studio moderne."
+    "title": "Comprendre la Compression en Mixage",
+    "summary": "Attack, release, ratio, knee... la compression reste l'un des traitements les plus mal compris du mixage. Cet article vous aide à développer une vraie logique d'utilisation.",
+    "author": "Emma",
+    "readingTime": "11 min",
+    "createdAt": "2026-02-10",
+    "category": "Mixage",
+    "content": "La compression est partout dans le mixage moderne, et pourtant elle reste l'un des traitements les plus mal maîtrisés par les home-studistes. Beaucoup l'utilisent par habitude ou par imitation, sans vraiment comprendre ce qu'elle fait à leur son. Dans cet article, on reprend les bases : le seuil (threshold), le ratio, l'attack, le release, le knee, le makeup gain. On explique ce que chaque paramètre fait concrètement au signal audio, et on donne des exemples d'utilisation adaptés à différentes situations : voix, batterie, basse, bus de mixage."
   },
   {
     "id": 11,
+    "slug": "nord-wave-3-test-complet",
     "image": "https://picsum.photos/seed/studio11/800/400",
-    "title": "ADSR : Le Guide pour Enfin Dompter vos Enveloppes",
-    "summary": "Attack, Decay, Sustain, Release : ces quatre paramètres définissent l'évolution d'un son dans le temps. Ce guide complet vous explique comment les maîtriser.",
-    "author": "Chloé",
-    "readingTime": "11 min",
-    "createdAt": "2026-02-10",
-    "category": "Production Musicale",
-    "content": "On entend souvent parler d'ADSR dès qu'on touche à la synthèse sonore. Ce terme désigne l'enveloppe qui contrôle l'évolution du volume (ou d'autres paramètres) d'un son au fil du temps : Attack (temps de montée), Decay (descente vers le sustain), Sustain (niveau maintenu), Release (extinction après relâchement de la touche). Maîtriser l'ADSR, c'est avoir le contrôle total sur le caractère d'un son : percutant, doux, court ou long. Cet article explique chaque phase en détail avec des cas d'usage concrets pour la basse, les pads, les leads et les percussions."
+    "title": "Nord Wave 3 : le Test Complet",
+    "summary": "Nord revient avec le Wave 3, un synthé haut de gamme qui combine synthèse par table d'ondes, échantillonnage et moteur FM. Luxueux, mais en vaut-il le prix ?",
+    "author": "Julien",
+    "readingTime": "16 min",
+    "createdAt": "2026-02-01",
+    "category": "Tests",
+    "content": "Nord est une marque qui n'a plus à prouver sa réputation dans le monde des claviers et synthétiseurs haut de gamme. Le Wave 3 est leur dernière proposition : un synthétiseur qui combine plusieurs moteurs de synthèse — wavetable, sample-based et FM — dans un seul instrument. Dans ce test complet, on évalue la qualité sonore de chaque moteur, la polyvalence de l'instrument sur scène et en studio, la qualité de construction et l'ergonomie du panneau de contrôle, ainsi que le rapport qualité/prix face à la concurrence."
   },
   {
     "id": 12,
+    "slug": "home-studio-les-erreurs-des-debutants",
     "image": "https://picsum.photos/seed/studio12/800/400",
-    "title": "Plugins d'EQ Analogiques : le Grand SCAM ?",
-    "summary": "Les émulations d'égaliseurs analogiques à 150 € valent-elles vraiment mieux qu'un bon EQ numérique gratuit ? Une analyse honnête et sans langue de bois.",
-    "author": "Alexis",
-    "readingTime": "7 min",
-    "createdAt": "2026-02-08",
-    "category": "Mixage",
-    "content": "Est-ce que les plugins d'EQ estampillés 'analogiques' ou 'vintage' à 150 € offrent vraiment un son supérieur, ou peut-on reproduire les mêmes résultats avec un simple égaliseur numérique comme le FabFilter Pro-Q ? On compare le comportement en phase, la saturation harmonique, la coloration sonore et l'ergonomie de ces deux types d'outils. La conclusion est nuancée : la couleur sonore existe bel et bien, mais elle est souvent bien plus subtile que ce que les vendeurs laissent entendre."
+    "title": "Home Studio : Les Erreurs des Débutants",
+    "summary": "Mauvaise acoustique, monitoring inadapté, trop de plugins... les erreurs classiques du home studio peuvent se corriger. Tour d'horizon des pièges à éviter quand on débute.",
+    "author": "Clara",
+    "readingTime": "8 min",
+    "createdAt": "2026-01-15",
+    "category": "Matériel & Enregistrement",
+    "content": "Monter son home studio est une étape excitante, mais elle s'accompagne souvent des mêmes erreurs que font la majorité des débutants. La première et la plus coûteuse : négliger l'acoustique de la pièce. Un bon micro dans une mauvaise pièce donnera toujours de mauvais résultats. La deuxième : investir dans des plugins avant d'avoir maîtrisé les fondamentaux du mixage. Dans cet article, on passe en revue les 10 erreurs les plus fréquentes et on donne des conseils pratiques pour les éviter dès le départ."
   },
   {
     "id": 13,
+    "slug": "beyerdynamic-dt-270-pro-test-complet",
     "image": "https://picsum.photos/seed/studio13/800/400",
     "title": "Beyerdynamic DT 270 Pro : le Test Complet",
     "summary": "Beyerdynamic propose le DT 270 Pro, un casque fermé taillé pour la scène et le studio. On le compare au DT 770 pour voir s'il mérite une place dans votre setup.",
@@ -144,6 +157,7 @@
   },
   {
     "id": 14,
+    "slug": "native-instruments-absynth-6-retour-ambient-synth",
     "image": "https://picsum.photos/seed/studio14/800/400",
     "title": "Native Instruments Absynth 6 : Retour de l'Ambient Synth",
     "summary": "Absynth est de retour en version 6 chez Native Instruments. Ce synthé atypique, taillé pour les textures ambient et cinématiques, revient avec de nouvelles fonctionnalités.",
@@ -155,6 +169,7 @@
   },
   {
     "id": 15,
+    "slug": "jai-du-percer-mon-premier-syte",
     "image": "https://picsum.photos/seed/studio15/800/400",
     "title": "J'ai Dû Percer mon Premier Synthé !",
     "summary": "Plongée dans l'univers du circuit bending avec un vieux Yamaha PSS-100 des années 80. Une exploration DIY pour enrichir ses productions de sons vintage lo-fi.",
@@ -166,6 +181,7 @@
   },
   {
     "id": 16,
+    "slug": "le-piege-du-calcul-release-reverbe",
     "image": "https://picsum.photos/seed/studio16/800/400",
     "title": "Le Piège du Calcul pour le Release et la Réverbe",
     "summary": "Calculer le release d'un compresseur selon le BPM : bonne idée ou fausse bonne pratique ? Cet article déconstruit un mythe très répandu dans les tutos de mixage.",
@@ -177,6 +193,7 @@
   },
   {
     "id": 17,
+    "slug": "10-meilleurs-micros-podcast-2026",
     "image": "https://picsum.photos/seed/studio17/800/400",
     "title": "10 des Meilleurs Micros pour Podcast en 2026",
     "summary": "Shure SM7B, Rode NT-USB, Audio-Technica AT2020... quel micro choisir pour lancer ou améliorer votre podcast ? Tour d'horizon complet à tous les budgets.",
@@ -188,6 +205,7 @@
   },
   {
     "id": 18,
+    "slug": "pourquoi-vos-voix-ne-sintegrent-pas-a-vos-mix",
     "image": "https://picsum.photos/seed/studio18/800/400",
     "title": "Pourquoi vos Voix ne s'Intègrent Pas à vos Mix",
     "summary": "La voix semble toujours 'collée' sur l'instrumental dans vos mixes ? Voici les raisons les plus courantes et comment y remédier concrètement.",
@@ -199,6 +217,7 @@
   },
   {
     "id": 19,
+    "slug": "black-friday-2025-meilleures-promos-home-studio",
     "image": "https://picsum.photos/seed/studio19/800/400",
     "title": "Black Friday 2025 : Les Meilleures Promos Home Studio & MAO",
     "summary": "Plugins, instruments virtuels, samples, matériel... le Black Friday est le moment idéal pour faire le plein. Voici une sélection des meilleures offres pour les home-studistes.",
@@ -210,6 +229,7 @@
   },
   {
     "id": 20,
+    "slug": "auburn-sounds-selene-nouvelle-reverbe",
     "image": "https://picsum.photos/seed/studio20/800/400",
     "title": "Auburn Sounds Annonce Selene, une Nouvelle Réverbe (+ Version Gratuite !)",
     "summary": "Auburn Sounds, éditeur discret mais très respecté, lance Selene : une nouvelle réverbe disponible en version gratuite et payante. Présentation et premier avis.",
