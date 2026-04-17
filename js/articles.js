@@ -57,7 +57,7 @@ async function chargerArticles() {
             metaCardRecto.classList.add("metaCard")
 
             const category = document.createElement("p")
-            category.textContent = article.category
+            category.textContent = "#" + article.category
 
             const imgFavori = document.createElement("img")
             imgFavori.src = ("../assets/icons/plus.svg")
@@ -83,6 +83,7 @@ async function chargerArticles() {
 
             const author = document.createElement("p")
             author.textContent = article.author
+            author.style.fontWeight = "bold"
 
             const btnReadArt = document.createElement("button")
             btnReadArt.textContent = "Lire l'article"
@@ -104,10 +105,10 @@ async function chargerArticles() {
 
             verso.appendChild(summary)
             verso.appendChild(metaCardVerso)
+            verso.appendChild(btnReadArt)
 
             metaCardVerso.appendChild(createdAt)
             metaCardVerso.appendChild(author)
-            metaCardVerso.appendChild(btnReadArt)
 
 
             cardArt.appendChild(card)
@@ -126,6 +127,7 @@ async function chargerArticles() {
                 window.location.href = `${URLart}?slug=${article.slug}`
             })
 
+            
         });
 
 
