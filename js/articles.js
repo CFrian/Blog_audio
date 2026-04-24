@@ -59,8 +59,13 @@ async function chargerArticles() {
             const category = document.createElement("p")
             category.textContent = "#" + article.category
 
-            const imgFavori = document.createElement("img")
-            imgFavori.src = ("../assets/icons/plus.svg")
+            const imgFavoriIdle = document.createElement("img")
+            imgFavoriIdle.src = ("../assets/icons/plus.svg")
+            imgFavoriIdle.classList.add('imgFavoriAnim')
+
+            const imgFavoriOut = document.createElement("img")
+            imgFavoriOut.src = ("../assets/icons/check.svg")
+            imgFavoriOut.classList.add('hidden')
 
 
 
@@ -98,7 +103,8 @@ async function chargerArticles() {
             recto.appendChild(metaCardRecto)
 
             metaCardRecto.appendChild(category)
-            metaCardRecto.appendChild(imgFavori)
+            metaCardRecto.appendChild(imgFavoriIdle)
+            metaCardRecto.appendChild(imgFavoriOut)
 
             readingTimeDIV.appendChild(readingTime)
             readingTimeDIV.appendChild(imgReadingTime)
@@ -127,7 +133,7 @@ async function chargerArticles() {
                 window.location.href = `${URLart}?slug=${article.slug}`
             })
 
-            
+
         });
 
 

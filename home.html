@@ -23,11 +23,11 @@
 
     <header>
         <nav>
-            <a href="#"><img id="logo" src="./assets/icons/jack-plug.svg" alt="logo du site en forme de jack"></a>
+            <a href="#"><img id="imgLogo" src="./assets/icons/jack-plug.svg" alt="logo du site en forme de jack"></a>
             <ul>
-                <li><a href="#">Accueil</a></li>
-                <li><a href="./inscription.html">Création de compte</a></li>
-                <li id="hidden"><a href="./article-single.html">Ajouter article</a></li>
+                <li id="Accueil-P"><a href="#">Accueil</a></li>
+                <li id="createProfil-P"><a href="./inscription.html">Création de compte</a></li>
+                <li id="hidden addArt-P"><a href="./article-single.html">Ajouter article</a></li>
             </ul>
             <div id="search">
                 <img id="loupe" src="./assets/icons/loupe.svg" alt="loupe rechercher">
@@ -39,7 +39,7 @@
         <div class="userLogIn" id="displayLogin">
             <input type="text" name="" id="userID" placeholder="mon identifiant" required>
             <input type="email" name="" id="userMail" placeholder="mon mail" required>
-            <button id="userConnexion">connexion</button>
+            <button id="userConnexionBtn">connexion</button>
         </div>
 
     </header>
@@ -85,27 +85,6 @@
 
 
             <Div id="cardNews"></Div>
-            <!-- <div class="dvNews card">
-                <div class="nInfos card-inner">
-
-
-                    <div class="card-face card-front">
-
-                        <img src="./assets/images/test-izotope-ozone-12-thumb.jpg" alt="image de plugin">
-
-                        <h3>Izotope Ozone 12 Advanced : le Test Complet</h3>
-                        <ul>
-                            <li>2023/02/11</li>
-                            <li class="tags">#test</li>
-                            <li>CFrian</li>
-                        </ul>
-                    </div>
-                    <div class="card-face card-back">
-                        <p class="resumeArt"></p>
-                        <button type="button">Lire l'article</button>
-                    </div>
-                </div>
-            </div> -->
 
         </section>
 
@@ -121,142 +100,6 @@
                 <div id="cardArt"></div>
             </div>
         </section>
-        <!-- <section class="articles">
-           
-           
-            <div class="liArt">
-                <div class="art01">
-                    <div class="tRead">
-                        <img id="readTime" src="./assets/icons/readTime.svg" alt="icon de connexion">
-                        <p>10 min</p>
-                    </div>
-                    <img class="imgArt" src="./assets/images/synthes-mono-poly-paraphoniques-1024x683.jpg" alt="">
-
-                    <div class="coprs01">
-                        <h3>Synthé Monophonique, Polyphonique,
-                            Paraphonique : Quelle Différence ?</h3>
-                        <p>Découvrez ce qui distingue
-                            les synthés monophoniques,
-                            polyphoniques et paraphoniques,
-                            et comprenez enfin comment
-                            leur architecture influence
-                            votre façon de jouer et de créer.</p>
-                        <ul>
-                            <li class="date">2023/02/11</li>
-                            <li class="tags">#synth</li>
-                            <li class="autor">CFrian</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="art02">
-                    <div class="tRead"></div>
-                    <img class="imgArt" src="./assets/images/synthes-mono-poly-paraphoniques-1024x683.jpg" alt="">
-
-                    <div class="coprs02">
-                        <h3>Synthé Monophonique, Polyphonique,
-                            Paraphonique : Quelle Différence ?</h3>
-                        <p>Découvrez ce qui distingue
-                            les synthés monophoniques,
-                            polyphoniques et paraphoniques,
-                            et comprenez enfin comment
-                            leur architecture influence
-                            votre façon de jouer et de créer.</p>
-                        <ul>
-                            <li class="date">2023/02/11</li>
-                            <li class="tags">#synth</li>
-                            <li class="autor">CFrian</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="art03">
-                    <div class="tRead"></div>
-                    <img class="imgArt" src="./assets/images/synthes-mono-poly-paraphoniques-1024x683.jpg" alt="">
-
-                    <div class="coprs03">
-                        <h3>Synthé Monophonique, Polyphonique,
-                            Paraphonique : Quelle Différence ?</h3>
-                        <p>Découvrez ce qui distingue
-                            les synthés monophoniques,
-                            polyphoniques et paraphoniques,
-                            et comprenez enfin comment
-                            leur architecture influence
-                            votre façon de jouer et de créer.</p>
-                        <ul>
-                            <li class="date">2023/02/11</li>
-                            <li class="tags">#synth</li>
-                            <li class="autor">CFrian</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="art04">
-                    <div class="tRead"></div>
-                    <img class="imgArt" src="./assets/images/synthes-mono-poly-paraphoniques-1024x683.jpg" alt="">
-
-                    <div class="coprs04">
-                        <h3>Synthé Monophonique, Polyphonique,
-                            Paraphonique : Quelle Différence ?</h3>
-                        <p>Découvrez ce qui distingue
-                            les synthés monophoniques,
-                            polyphoniques et paraphoniques,
-                            et comprenez enfin comment
-                            leur architecture influence
-                            votre façon de jouer et de créer.</p>
-                        <ul>
-                            <li class="date">2023/02/11</li>
-                            <li class="tags">#synth</li>
-                            <li class="autor">CFrian</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="art05">
-                    <div class="tRead"></div>
-                    <img class="imgArt" src="./assets/images/synthes-mono-poly-paraphoniques-1024x683.jpg" alt="">
-
-                    <div class="coprs05">
-                        <h3>Synthé Monophonique, Polyphonique,
-                            Paraphonique : Quelle Différence ?</h3>
-                        <p>Découvrez ce qui distingue
-                            les synthés monophoniques,
-                            polyphoniques et paraphoniques,
-                            et comprenez enfin comment
-                            leur architecture influence
-                            votre façon de jouer et de créer.</p>
-                        <ul>
-                            <li class="date">2023/02/11</li>
-                            <li class="tags">#synth</li>
-                            <li class="autor">CFrian</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="art06">
-                    <div class="tRead"></div>
-                    <img class="imgArt" src="./assets/images/synthes-mono-poly-paraphoniques-1024x683.jpg" alt="">
-
-                    <div class="coprs06">
-                        <h3>Synthé Monophonique, Polyphonique,
-                            Paraphonique : Quelle Différence ?</h3>
-                        <p>Découvrez ce qui distingue
-                            les synthés monophoniques,
-                            polyphoniques et paraphoniques,
-                            et comprenez enfin comment
-                            leur architecture influence
-                            votre façon de jouer et de créer.</p>
-                        <ul>
-                            <li class="date">2023/02/11</li>
-                            <li class="tags">#synth</li>
-                            <li class="autor">CFrian</li>
-                        </ul>
-                    </div>
-                </div>
-
-
-
-
-            </div>
-            <button>Afficher plus d'articles</button>
-        </section>
-    </main> -->
-
 
 
         <!-- *///////////////////////////////////////////////////* -->

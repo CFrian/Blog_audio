@@ -72,20 +72,22 @@
 
 
     <section class="inscription">
-        <h2>INSCRIPTION</h2>
-        <hr>
-        <h3>Pseudo</h3>
-        <input type="text" id="pseudo" placeholder="nom visible par les utilisateurs" required>
-        <h3>Adresse mail</h3>
-        <input type="mail" id="mail" placeholder="adresse mail valide" required>
-        <h3>Mot de passe</h3>
-        <input type="text" id="password" placeholder="ajouter un mot de passe" required>
-        <h3>Vérification du mot de passe</h3>
-        <input type="text" id="passwordComparatif" placeholder="confirmer le mot de passe" required>
+        <form id="formSub">
+            <h2>Inscription</h2>
+            <hr>
+            <h3>Pseudo</h3>
+            <input type="text" nom="nomUser" id="pseudo" placeholder="nom visible par les utilisateurs" required>
+            <h3>Adresse mail</h3>
+            <input type="mail" nom="mailUser" id="mail" placeholder="adresse mail valide" required>
+            <h3>Mot de passe</h3>
+            <input type="text" nom="passUser" id="password" placeholder="ajouter un mot de passe" required>
+            <h3>Vérification du mot de passe</h3>
+            <input type="text" nom="passUserConfirm" id="passwordComparatif" placeholder="confirmer le mot de passe"
+                required>
 
-        <button type="submit">Créer le compte</button>
     </section>
-
+    <button type="submit">Créer le compte</button>
+    </form>
     <!-- *///////////////////////////////////////////////////* -->
     <footer>
         <section class="legal">
@@ -97,13 +99,10 @@
         <section class="tagsPop">
 
             <h3>TAGS POPULAIRES</h3>
-            <ul>
+            <ul id="hashtags">
                 <li>SYNTH</li>
                 <li>MATOS</li>
                 <li>TEST</li>
-
-            </ul>
-            <ul>
                 <li>PLUNGIN</li>
                 <li>STAN</li>
                 <li>TIPS</li>

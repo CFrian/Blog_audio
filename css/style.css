@@ -8,10 +8,18 @@
 
 h1,
 h2 {
-
+    font-size: 4rem;
     font-family: "inter", sans-serif;
     margin: 0;
     color: #FFFFFF;
+}
+
+h3 {
+    font-family: "inter", sans-serif;
+    margin: 0;
+
+    font-size: 1.5rem;
+    margin-top: 25px;
 }
 
 a,
@@ -67,7 +75,7 @@ hr {
     justify-content: center;
     margin: 50px 0;
     gap: 20px;
-    font-size: 2rem;
+
 }
 
 #listArt {
@@ -125,6 +133,7 @@ hr {
 
 
 .card-recto h3 {
+    width: 300px;
     padding: 10px;
     text-align: center;
 }
@@ -132,7 +141,7 @@ hr {
 .card-recto h3:hover {
     transform: scale(1.1);
     transition: 0.2s;
-    text-shadow: 2px 2px 5px ;
+    /* filter: drop-shadow(5px 5px 0.75px var(--bgNavFoot)); */
 }
 
 
@@ -173,4 +182,28 @@ hr {
 .metaCard img {
     height: 40px;
 
+}
+
+
+
+
+/*=======================================*/
+.inscription {
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+}
+
+#formSub {
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+
+#formSub>input {
+    padding-left: 10px;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 200px;
 }
