@@ -45,23 +45,6 @@ hr {
     border: none;
 }
 
-/****************   NEWS  *********************/
-/* 
-    
-    .news {
-        height: 60vh;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin: 50px 0;
-        gap: 30px;
-}
-
-
-.dvNews {
-    position: relative;
-}
 
 
 /*****************************   articles ****************************************/
@@ -133,9 +116,8 @@ hr {
 
 
 .card-recto h3 {
-    width: 300px;
-    padding: 10px;
     text-align: center;
+    font-size: 1.1rem;
 }
 
 .card-recto h3:hover {
@@ -170,40 +152,94 @@ hr {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-.metaCard {
+.metaCardRecto {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 0 20px;
+    justify-content: center;
+    justify-content: space-around;
+
     font-style: italic;
+    gap: 100px;
+
 }
 
+.metaCardRecto p {
+    text-wrap: noWrap;
+}
 
-.metaCard img {
+.metaDivFav {
+    position: relative;
     height: 40px;
-
+    width: 40px;
 }
 
+.metaDivFav img {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    transition: transform 1s ease, opacity 0.5s ease;
+}
 
+.imgFavoriAnim {
+    opacity: 1;
+    transition: transform 1s ease, opacity 0.5s ease;
+}
 
+.imgFavoriOut {
+    opacity: 0;
+    /* caché au départ */
+    transition: transform 1s ease, opacity 0.5s ease;
+}
+
+/* état activé */
+.metaDivFav.active .imgFavoriAnim {
+    transform: rotate(90deg);
+    opacity: 0;
+}
+
+.metaDivFav.active .imgFavoriOut {
+    transform: rotate(360deg);
+    opacity: 1;
+}
+
+.hidden {
+    display: none;
+}
 
 /*=======================================*/
-.inscription {
-    height: 60vh;
-    display: flex;
-    justify-content: center;
+.card-verso p,
+.card-verso button {
+    margin: 50px 10px;
 }
 
-#formSub {
-    display: flex;
-    flex-direction: column;
-    gap: 10px
-}
-
-#formSub>input {
-    padding-left: 10px;
+.card-verso button {
+    background-color: #C26E4F;
     border: none;
     border-radius: 5px;
     height: 30px;
-    width: 200px;
+    width: 50%;
+    padding-left: 10px;
+}
+
+.card-verso button:hover {
+    background-color: #ca5a319c;
+}
+
+
+
+.metaCardVerso {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+
+    font-style: italic;
+    gap: 100px;
+
 }

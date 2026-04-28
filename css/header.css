@@ -1,6 +1,6 @@
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     height: 80px;
     background-color: var(--bgNavFoot);
@@ -9,12 +9,12 @@ header {
 nav {
     display: flex;
     align-items: center;
-    width: 50%;
+    width: 80%;
     height: 90%;
     gap: 60px;
 }
 
-#logo {
+#imgLogo {
     height: 60px;
     width: 60px;
     color: #3C94F2;
@@ -70,6 +70,8 @@ a {
     padding-right: 150px;
 }
 
+
+
 .userLogIn {
     height: 150px;
     width: 200px;
@@ -94,7 +96,7 @@ a {
 
 
 #userID,
-#userMail {
+#userPassword {
     /* padding-top: 30px 10px 0 10px; */
     background-color: #3c94f2b0;
     border: none;
@@ -104,7 +106,7 @@ a {
     padding-left: 10px;
 }
 
-#userConnexion {
+#userConnexionBtn {
     background-color: #C26E4F;
     border: none;
     border-radius: 5px;
@@ -119,7 +121,7 @@ a {
 }
 
 /*******************************************/
-.css_animation {
+/* .css_animation {
     height: 20vh;
 
 }
@@ -342,4 +344,4 @@ a {
         margin-top: -17%;
         background: #5b38ee;
     }
-}
+} */

@@ -27,20 +27,24 @@ async function afficherArticle() {
         const metaDiv = document.createElement("div")
         metaDiv.classList.add("metaCard")
 
-        const imgFavori = document.createElement("img")
-        imgFavori.src = ("../assets/icons/plus.svg")
+        // const imgFavori = document.createElement("img")
+        // imgFavori.src = ("../assets/icons/plus.svg")
 
         const createdAt = document.createElement("p")
         createdAt.textContent = article.createdAt
 
         const category = document.createElement("p")
         category.textContent = article.category
+        category.textContent = "#" + article.category
 
         const author = document.createElement("p")
         author.textContent = article.author
+        author.style.fontWeight = "bold"
 
         // ===========  ELEMENTS =========== 
         const bodyArt = document.createElement("div")
+        bodyArt.classList.add('bodyArt')
+
 
         const img = document.createElement("img")
         img.src = article.image
@@ -49,6 +53,7 @@ async function afficherArticle() {
 
         const summary = document.createElement("p")
         summary.textContent = article.summary
+        summary.classList.add('summary')
 
         const content = document.createElement("p")
         content.textContent = article.content
@@ -59,7 +64,7 @@ async function afficherArticle() {
         conteneurArt.appendChild(metaDiv)
         conteneurArt.appendChild(bodyArt)
 
-        metaDiv.appendChild(imgFavori)
+        // metaDiv.appendChild(imgFavori)
         metaDiv.appendChild(createdAt)
         metaDiv.appendChild(category)
         metaDiv.appendChild(author)

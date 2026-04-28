@@ -54,10 +54,13 @@ async function chargerArticles() {
 
             // ===========  INFOS METADONNE ART =========== 
             const metaCardRecto = document.createElement("div")
-            metaCardRecto.classList.add("metaCard")
+            metaCardRecto.classList.add("metaCardRecto")
 
             const category = document.createElement("p")
             category.textContent = "#" + article.category
+
+            const metaDivFav = document.createElement("div")
+            metaDivFav.classList.add("metaDivFav")
 
             const imgFavoriIdle = document.createElement("img")
             imgFavoriIdle.src = ("../assets/icons/plus.svg")
@@ -65,9 +68,12 @@ async function chargerArticles() {
 
             const imgFavoriOut = document.createElement("img")
             imgFavoriOut.src = ("../assets/icons/check.svg")
-            imgFavoriOut.classList.add('hidden')
+            imgFavoriOut.classList.add('imgFavoriOut')
 
-
+            metaDivFav.addEventListener("click", (e) => {
+                e.stopPropagation()
+                metaDivFav.classList.toggle("active")
+            })
 
             //==============================================
             // ===========  CRREATION CARTE VERSO =========== 
@@ -81,14 +87,14 @@ async function chargerArticles() {
 
             // ===========  INFOS METADONNE ART =========== 
             const metaCardVerso = document.createElement("div")
-            metaCardVerso.classList.add("metaCard")
+            metaCardVerso.classList.add("metaCardVerso")
 
             const createdAt = document.createElement("p")
             createdAt.textContent = article.createdAt
 
             const author = document.createElement("p")
             author.textContent = article.author
-            author.style.fontWeight = "bold"
+            // author.style.fontWeight = "bold"
 
             const btnReadArt = document.createElement("button")
             btnReadArt.textContent = "Lire l'article"
@@ -103,15 +109,17 @@ async function chargerArticles() {
             recto.appendChild(metaCardRecto)
 
             metaCardRecto.appendChild(category)
-            metaCardRecto.appendChild(imgFavoriIdle)
-            metaCardRecto.appendChild(imgFavoriOut)
+            metaCardRecto.appendChild(metaDivFav)
+
+            metaDivFav.appendChild(imgFavoriIdle)
+            metaDivFav.appendChild(imgFavoriOut)
 
             readingTimeDIV.appendChild(readingTime)
             readingTimeDIV.appendChild(imgReadingTime)
 
             verso.appendChild(summary)
-            verso.appendChild(metaCardVerso)
             verso.appendChild(btnReadArt)
+            verso.appendChild(metaCardVerso)
 
             metaCardVerso.appendChild(createdAt)
             metaCardVerso.appendChild(author)
@@ -133,6 +141,16 @@ async function chargerArticles() {
                 window.location.href = `${URLart}?slug=${article.slug}`
             })
 
+            metaDivFav.addEventListener('click', (e) => {
+                e.stopPropagation()
+                const isActive = metaDivFav.classList.toggle("AddFav")
+
+                if (isActive) {
+                    console.log('Article ajouté dans les favoris')
+                } else {
+                    console.log('Article retiré des favoris')
+                }
+            })
 
         });
 
