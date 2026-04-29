@@ -49,7 +49,7 @@ async function chargerArticles() {
             readingTime.textContent = article.readingTime
 
             const imgReadingTime = document.createElement("img")
-            imgReadingTime.src = ("../assets/icons/readTime.svg")
+            imgReadingTime.src = ("./assets/icons/readTime.svg")
 
 
             // ===========  INFOS METADONNE ART =========== 
@@ -63,11 +63,11 @@ async function chargerArticles() {
             metaDivFav.classList.add("metaDivFav")
 
             const imgFavoriIdle = document.createElement("img")
-            imgFavoriIdle.src = ("../assets/icons/plus.svg")
+            imgFavoriIdle.src = ("./assets/icons/plus.svg")
             imgFavoriIdle.classList.add('imgFavoriAnim')
 
             const imgFavoriOut = document.createElement("img")
-            imgFavoriOut.src = ("../assets/icons/check.svg")
+            imgFavoriOut.src = ("./assets/icons/check.svg")
             imgFavoriOut.classList.add('imgFavoriOut')
 
             metaDivFav.addEventListener("click", (e) => {
