@@ -1,7 +1,7 @@
 const message = document.querySelector("#message")
 const cardArt = document.querySelector("#cardArt")
-const URL = "../data/articles.json"
-const URLart = "../article-single.html"
+const URL = "./data/articles.json"
+const URLart = "./article-single.html"
 //1. créer une fonction pour charger les articles  
 // (récupérer avec try...catch)
 //2. fetch pour chercher les articles  
