@@ -1,7 +1,7 @@
 const conteneurArt = document.querySelector("#conteneurArt")
 const params = new URLSearchParams(window.location.search)
 const slug = params.get("slug")
-const URL = "../data/articles.json"
+const URL = "./data/articles.json"
 
 async function afficherArticle() {
     console.log("chargement de l'article")
