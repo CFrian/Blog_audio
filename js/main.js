@@ -42,6 +42,17 @@ async function loadHeader() {
             userMail.value = ""
         })
 
+
+        const burger = document.querySelector("#burger")
+        const Nav = document.querySelector("nav")
+
+        burger.addEventListener("click", () => {
+            Nav.classList.toggle("open")
+        })
+
+
+
+
     } catch (error) {
         console.log(error)
     }

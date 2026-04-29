@@ -94,7 +94,7 @@ async function chargerArticles() {
 
             const author = document.createElement("p")
             author.textContent = article.author
-            // author.style.fontWeight = "bold"
+            author.style.fontWeight = "bold"
 
             const btnReadArt = document.createElement("button")
             btnReadArt.textContent = "Lire l'article"

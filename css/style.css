@@ -39,8 +39,8 @@ body {
 
 hr {
     margin: 0;
-    height: 3px;
-    width: 330px;
+    height: 2px;
+    width: 250px;
     background-color: #FE308D;
     border: none;
 }
@@ -58,7 +58,7 @@ hr {
     justify-content: center;
     margin: 50px 0;
     gap: 20px;
-
+    font-size: 2rem;
 }
 
 #listArt {
@@ -68,7 +68,6 @@ hr {
 }
 
 #cardArt {
-    /* perspective: 1000px; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -79,8 +78,8 @@ hr {
 
 .card {
     position: relative;
-    height: 426px;
-    width: 350px;
+    height: 386px;
+    width: 300px;
     background-color: #FFFFFF;
     border: 3px solid #C26E4F;
     display: flex;
@@ -103,7 +102,6 @@ hr {
     background-color: #FFFFFF;
     border: 3px solid #C26E4F;
     transform: translate(-3px, -3px);
-
 }
 
 .card-verso {
@@ -117,13 +115,12 @@ hr {
 
 .card-recto h3 {
     text-align: center;
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 .card-recto h3:hover {
     transform: scale(1.1);
     transition: 0.2s;
-    /* filter: drop-shadow(5px 5px 0.75px var(--bgNavFoot)); */
 }
 
 
@@ -162,7 +159,7 @@ hr {
     justify-content: space-around;
 
     font-style: italic;
-    gap: 100px;
+    gap: 60px;
 
 }
 
@@ -209,7 +206,7 @@ hr {
     display: none;
 }
 
-/*=======================================*/
+/*===============   CARD VERSO    ========================*/
 .card-verso p,
 .card-verso button {
     margin: 50px 10px;
@@ -238,8 +235,43 @@ hr {
     align-items: center;
     justify-content: center;
     justify-content: space-between;
-
     font-style: italic;
-    gap: 100px;
+    gap: 50px;
+    height: 30px;
+
+}
+
+/* ====================  MEDIA QUERIES ==================== */
+
+@media (min-width : 768px) {
+    #titreArt {
+        font-size: 3rem;
+    }
+
+    hr {
+        margin: 0;
+        height: 3px;
+        width: 350px;
+
+    }
+
+    .card {
+        height: 426px;
+        width: 350px;
+    }
+
+    .card-recto h3 {
+        text-align: center;
+        font-size: 1.1rem;
+    }
+
+    .metaCardRecto {
+        gap: 100px;
+    }
+
+    .metaCardVerso {
+        gap: 100px;
+
+    }
 
 }

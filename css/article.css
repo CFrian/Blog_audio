@@ -9,19 +9,19 @@
 
 h1,
 h2 {
-    font-size: 3rem;
+    font-size: 2rem;
     font-family: "inter", sans-serif;
     margin: 0;
     color: #FFFFFF;
 }
 
-h3 {
+/* h3 {
     font-family: "inter", sans-serif;
     margin: 0;
 
     font-size: 1.5rem;
     margin-top: 25px;
-}
+} */
 
 a,
 p {
@@ -41,8 +41,8 @@ body {
 
 hr {
     margin: 0;
-    height: 3px;
-    width: 330px;
+    height: 2px;
+    width: 250px;
     background-color: #FE308D;
     border: none;
 
@@ -55,7 +55,7 @@ hr {
     flex-direction: column;
     align-items: center;
     gap: 30px;
-    max-width: 800px;
+    width: 60%;
     margin: 0 auto;
     padding: 50px 20px;
 }
@@ -66,8 +66,8 @@ hr {
 
 
 #conteneurArt .card-image {
-    width: 500px;
-    height: 250px;
+    width: 250px;
+    height: 125px;
     object-fit: cover;
     border-radius: 10px;
 }
@@ -76,11 +76,16 @@ hr {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 20px;
+    gap: 10px;
     border: 2px solid #C26E4F;
     border-radius: 8px;
-    padding: 10px 20px;
-    width: 100%;
+    padding: 5px 10px;
+    width: 90%;
+}
+
+.metaCard {
+    font-size: 0.7rem;
+
 }
 
 /* résumé avec bordures gauche et droite uniquement */
@@ -88,8 +93,8 @@ hr {
     border-left: 3px solid #FE308D;
     border-right: 3px solid #FE308D;
     padding: 0 20px;
-    width: 100%;
-
+    width: 90%;
+    font-size: 0.8rem;
 }
 
 .bodyArt {
@@ -97,5 +102,113 @@ hr {
     flex-direction: column;
     align-items: center;
     gap: 40px;
-    
+    font-size: 0.8rem;
+
+}
+
+
+
+
+
+
+/* =====================   MEDIA QUERIE  ======================= */
+
+@media (min-width: 768px) {
+
+
+    h1,
+    h2 {
+        font-size: 3rem;
+        font-family: "inter", sans-serif;
+        margin: 0;
+        color: #FFFFFF;
+    }
+
+    h3 {
+        font-family: "inter", sans-serif;
+        margin: 0;
+
+        font-size: 1.5rem;
+        margin-top: 25px;
+    }
+
+    a,
+    p {
+        font-family: "work-sans", sans-serif;
+        margin: 0;
+        color: #FFFFFF;
+        font-size: 1rem;
+    }
+
+
+    html,
+    body {
+        padding: 0;
+        margin: 0;
+        background-color: var(--bg);
+    }
+
+
+    hr {
+        margin: 0;
+        height: 3px;
+        width: 330px;
+        background-color: #FE308D;
+        border: none;
+
+    }
+
+
+
+    #conteneurArt {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 50px 20px;
+    }
+
+    #conteneurArt h1 {
+        text-align: center;
+    }
+
+
+    #conteneurArt .card-image {
+        width: 500px;
+        height: 250px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    #conteneurArt .metaCard {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 20px;
+        border: 2px solid #C26E4F;
+        border-radius: 8px;
+        padding: 10px 20px;
+        width: 100%;
+    }
+
+    /* résumé avec bordures gauche et droite uniquement */
+    #conteneurArt p.summary {
+        border-left: 3px solid #FE308D;
+        border-right: 3px solid #FE308D;
+        padding: 0 20px;
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .bodyArt {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+
+    }
+
+
 }

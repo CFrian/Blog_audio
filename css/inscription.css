@@ -1,3 +1,5 @@
+/******************************    INSCRIPTION  CSS  ********************************************/
+
 .inscription {
     display: flex;
     flex-direction: column;
@@ -10,39 +12,100 @@
     flex-direction: column;
     gap: 10px;
     width: 400px;
-    max-width: 100%;
+
+    padding-left: 15px;
 }
 
 .inscription h2 {
     text-align: center;
     margin-bottom: 10px;
+    font-size: 2rem;
 }
 
 .inscription h3 {
     color: #FFFFFF;
     margin: 0;
+    font-size: 1.3rem;
 }
 
 .inscription input {
     background-color: var(--bgNavFoot);
     border: none;
     border-radius: 5px;
-    height: 35px;
+    height: 25px;
     padding-left: 10px;
-    font-size: 1rem;
+    font-size: 0.8rem;
+    width: 60%;
 }
 
 .inscription button {
     background-color: #C26E4F;
     border: none;
     border-radius: 5px;
-    height: 35px;
+    height: 30px;
     color: white;
     font-size: 1rem;
     cursor: pointer;
     margin-top: 10px;
+    width: 50%;
 }
 
 .inscription button:hover {
     background-color: #ca5a31;
+}
+
+
+/* =====================   Tablette  - min-width: 768px     ==============================*/
+
+
+@media (min-width: 768px) {
+
+    .inscription h2 {
+        margin-bottom: 10px;
+        font-size: 3rem;
+    }
+
+    .inscription h3 {
+        color: #FFFFFF;
+        margin: 0;
+        font-size: 1.4rem;
+    }
+
+    .inscription input {
+        background-color: var(--bgNavFoot);
+        border: none;
+        border-radius: 5px;
+        height: 35px;
+        padding-left: 10px;
+        font-size: 1rem;
+        width: 80%;
+    }
+
+    .inscription button {
+        background-color: #C26E4F;
+        border: none;
+        border-radius: 5px;
+        height: 35px;
+        color: white;
+        font-size: 1rem;
+        cursor: pointer;
+        margin-top: 10px;
+        width: 50%;
+    }
+
+    .inscription button:hover {
+        background-color: #ca5a31;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
 }
