@@ -51,8 +51,6 @@ async function loadHeader() {
         })
 
 
-
-
     } catch (error) {
         console.log(error)
     }
@@ -67,6 +65,16 @@ async function loadFooter() {
         }
         const html = await response.text()
         document.querySelector("footer").innerHTML = html
+        const tags = document.querySelectorAll("[data-categorie]")
+
+        tags.forEach(tag => {
+            tag.addEventListener('click', () => {
+                const categorie = tag.dataset.categorie
+                filterByCategories(categorie)
+            })
+        })
+
+
     } catch (error) {
         console.log(error)
     }
@@ -77,6 +85,5 @@ loadFooter()  // démarre
 // La subtilité est que si l'on ajoute du code a la
 // suite il sera instancié immédiatement sans garantit que
 // les résultats du fetch sont effectifs donc erreur ! 
-
 
 

@@ -106,6 +106,13 @@ footer h3 {
         padding: 0;
         font-family: "work-sans", sans-serif;
         font-size: small;
+        border: 1px dotted;
+        border-radius: 5px;
+        padding: 2px;
+    }
+
+    .tagsPop ul li:hover {
+        border: 1px solid;
     }
 
     .subscribes {
